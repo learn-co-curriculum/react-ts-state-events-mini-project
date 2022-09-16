@@ -43,7 +43,7 @@ function NewTaskForm({ categories, onTaskFormSubmit }: Props) {
           )}
         </select>
       </label>
-      <input type="submit" value="Add Task" />
+      <input type="submit" value="Add task" />
     </form>
   );
 }
