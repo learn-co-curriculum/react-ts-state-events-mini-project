@@ -30,17 +30,25 @@ First, we'll want to display all the tasks in our app. Pass down the task data
 from `App` to `TaskList`, and display each task using the `Task` component. Make
 sure to use a `key` prop!
 
+> **Hint**: You'll notice there are no `id`'s for the tasks. Although this would
+> normally be discouraged in production apps because someone could list the same
+> task twice, feel free to use the task's `text` property as the key. You can
+> assume that for this app, the same task cannot be listed twice.
+
 ### Task
 
 Update the `Task` component so that it shows the task's text and category.
 
 _When the delete button is clicked_, the task should be removed from the list.
 
+> **Hint**: Again, you can assume the same task will not be listed twice. Feel
+> free to take advantage of that!
+
 ### CategoryFilter
 
-Pass the list of categories to this component from `App`. Then, update this
-component to display `<button>` elements for each category. In order to pass the
-test, the buttons will need a key prop equal to the category.
+Pass the list of categories to the `CategoryFilter` component from `App`. Then,
+update this component to display `<button>` elements for each category. In order
+to pass the test, the buttons will need a key prop equal to the category.
 
 _When a button is clicked_, the following should happen:
 
@@ -52,10 +60,10 @@ _When a button is clicked_, the following should happen:
 
 ### NewTaskForm
 
-Pass the list of categories to this component from `App`. Then, update this
-component to display `<option>` elements for each category inside of the
-`<select>` element **except** the "All" category, so that the user can select a
-category when adding a new task.
+Pass the list of categories to the `NewTaskForm` component from `App`. Then,
+update this component to display `<option>` elements for each category inside of
+the `<select>` element **except** the "All" category, so that the user can
+select a category when adding a new task.
 
 Next, update this form to be a _controlled component_, so that all form inputs
 are captured in state.
