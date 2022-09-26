@@ -21,6 +21,9 @@ Run `npm install` and `npm start`, then check out the starter code in the
 browser. You'll see a console message with the `TASK` and `CATEGORY` data you'll
 need to pass down from `App`.
 
+Once you've completed all the deliverables, don't forget to run `npm test` to
+ensure you've completed them all correctly.
+
 ### TaskList
 
 First, we'll want to display all the tasks in our app. Pass down the task data
@@ -36,7 +39,8 @@ _When the delete button is clicked_, the task should be removed from the list.
 ### CategoryFilter
 
 Pass the list of categories to this component from `App`. Then, update this
-component to display `<button>` elements for each category. In order to pass the test, the buttons will need a key prop equal to the category.
+component to display `<button>` elements for each category. In order to pass the
+test, the buttons will need a key prop equal to the category.
 
 _When a button is clicked_, the following should happen:
 
@@ -59,3 +63,17 @@ are captured in state.
 _When the form is submitted_, add a new task to the list with the text and
 category from the form. For the tests for this feature to pass, you'll need a
 callback prop named `onTaskFormSubmit` that takes a task object as an argument.
+
+## Conclusion
+
+Hooray! You've completed this mini project. This was no easy task, handling
+state and events and passing props are difficult React concepts that can take
+some time wrapping one's head around. If you feel like you don't have a proper
+handle on them yet or found yourself referring back to previous examples, that's
+more than OK. In fact, that is expected at this stage. Deep understanding will
+come with time and practice.
+
+And still, you were able to complete a project that utilized all these
+fundamental React concepts - congratulations! Next, we'll build your React
+knowledge with more advanced topics, starting with something called side effects and
+fetching external data.
