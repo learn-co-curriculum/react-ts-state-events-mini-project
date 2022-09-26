@@ -66,8 +66,8 @@ callback prop named `onTaskFormSubmit` that takes a task object as an argument.
 
 ## Conclusion
 
-Hooray! You've completed this mini project. This was no easy task, handing
-state, events, and passing props are all difficult React concepts that can take
+Hooray! You've completed this mini project. This was no easy task, handling
+state and events and passing props are difficult React concepts that can take
 some time wrapping one's head around. If you feel like you don't have a proper
 handle on them yet or found yourself referring back to previous examples, that's
 more than OK. In fact, that is expected at this stage. Deep understanding will
@@ -75,5 +75,5 @@ come with time and practice.
 
 And still, you were able to complete a project that utilized all these
 fundamental React concepts - congratulations! Next, we'll build your React
-knowledge with more advanced topics, starting with something side effects and
+knowledge with more advanced topics, starting with something called side effects and
 fetching external data.
